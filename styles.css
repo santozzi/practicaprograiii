@@ -1,0 +1,45 @@
+/*
+* {
+    border: 1px solid black;
+}
+    */
+
+header {
+    background-color: chocolate;
+
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+header nav ul li {
+    display: inline;
+    margin: 10px;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+body {
+    background-color: black;
+}
+main {
+    background-color: #f1f1f1;
+
+}
+.container_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container_main img{
+    width: 50%;
+}
+footer {
+    background-color: #cc0d0d;
+}
